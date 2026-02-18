@@ -15,7 +15,7 @@ navbar.innerHTML = `
           <a href="index.html#reviews" class="rounded-full px-4 py-2 text-sm font-medium text-white/80 transition hover:bg-white/10 hover:text-white">Reviews</a>
           <a href="index.html#areas" class="rounded-full px-4 py-2 text-sm font-medium text-white/80 transition hover:bg-white/10 hover:text-white">Areas</a>
           <a href="index.html#faq" class="rounded-full px-4 py-2 text-sm font-medium text-white/80 transition hover:bg-white/10 hover:text-white">FAQ</a>
-          <a href="services.html" class="rounded-full px-4 py-2 text-sm font-medium text-white/80 transition hover:bg-white/10 hover:text-white">Full services</a>
+          <a href="services.html" class="rounded-full px-4 py-2 text-sm font-medium text-white/80 transition hover:bg-white/10 hover:text-white">All services</a>
         </nav>
 
         <div class="hidden items-center gap-3 sm:flex">
@@ -98,7 +98,7 @@ navbar.innerHTML = `
           <a href="services.html" class="flex items-center justify-between rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-medium text-slate-900 transition hover:bg-slate-50">
             <span class="inline-flex items-center gap-2">
               <i class="fa-solid fa-list-check text-blue-700"></i>
-              Full services page
+              All services
             </span>
             <i class="fa-solid fa-arrow-right text-slate-400"></i>
           </a>
