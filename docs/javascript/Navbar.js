@@ -42,9 +42,6 @@ navbar.innerHTML = `
     <div class="absolute left-0 top-0 h-full w-full max-w-sm -translate-x-full bg-white shadow-xl transition-transform duration-300" data-nav-drawer>
       <div class="flex items-center justify-between border-b border-slate-200 p-4">
         <a href="index.html" class="flex items-center gap-3">
-          <span class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white">
-            <i class="fa-solid fa-sparkles"></i>
-          </span>
           <span class="leading-tight">
             <span class="block text-sm font-semibold text-slate-900">R&amp;B Spotless Cleaning</span>
             <span class="block text-xs text-slate-600">St Neots &amp; surrounding areas</span>
