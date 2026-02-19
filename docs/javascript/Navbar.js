@@ -6,7 +6,7 @@ navbar.innerHTML = `
     <div class="mt-4 rounded-2xl border border-white/10 bg-slate-950/70 backdrop-blur">
       <div class="flex items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="index.html" class="flex items-center gap-3">
-          <img src="/docs/assets/logo.png" class="md:h-16 h-12" alt="">
+          <img src="/docs/assets/logo2.png" class="h-12" alt="">
         </a>
 
         <nav class="hidden items-center gap-2 lg:flex">

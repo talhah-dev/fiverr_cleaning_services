@@ -10,7 +10,7 @@ footer.innerHTML = `
     <div class="grid gap-10 border-b border-white/10 py-14 lg:grid-cols-12 lg:gap-8">
       <div class="lg:col-span-5" data-aos="fade-up" data-aos-duration="900">
         <div class="flex items-center gap-3">
-                   <img src="/docs/assets/logo.png" class="h-24 brightness-0 invert opacity-90" alt="">
+                   <img src="/docs/assets/logo2.png" class="h-20" alt="">
         </div>
 
         <p class="mt-5 max-w-md text-sm leading-relaxed text-white/70">
