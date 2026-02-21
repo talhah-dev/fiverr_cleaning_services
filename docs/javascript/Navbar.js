@@ -3,7 +3,7 @@ const navbar = document.getElementById("navbar");
 navbar.innerHTML = `
 <header class="fixed inset-x-0 top-0 z-50">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="mt-4 rounded-2xl border border-white/10 bg-slate-950/70 backdrop-blur">
+    <div class="mt-4 rounded-2xl border border-white/10 bg-slate-950/50 backdrop-blur">
       <div class="flex items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="index.html" class="flex items-center gap-3">
           <img src="/docs/assets/logo2.png" class="h-12" alt="">
@@ -117,7 +117,7 @@ navbar.innerHTML = `
           </div>
 
           <div class="mt-4 flex items-center justify-between gap-3 text-xs text-slate-600">
-            <a href="mailto:service@rbspottlescleaning.co.uk" class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 transition hover:bg-slate-50">
+            <a href="mailto:rbspotlesscleaning.co.uk" class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 transition hover:bg-slate-50">
               <i class="fa-solid fa-envelope text-sky-700"></i>
               <span class="font-medium">Email</span>
             </a>

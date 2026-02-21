@@ -22,9 +22,9 @@ footer.innerHTML = `
             <i class="fa-solid fa-phone text-emerald-300"></i>
             <span class="font-medium">07898 952106</span>
           </a>
-          <a href="mailto:service@rbspottlescleaning.co.uk" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/85 backdrop-blur transition hover:bg-white/10">
+          <a href="mailto:rbspotlesscleaning.co.uk" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/85 backdrop-blur transition hover:bg-white/10">
             <i class="fa-solid fa-envelope text-sky-300"></i>
-            <span class="font-medium">service@rbspottlescleaning.co.uk</span>
+            <span class="font-medium">rbspotlesscleaning.co.uk</span>
           </a>
         </div>
 
@@ -96,7 +96,7 @@ footer.innerHTML = `
       <p>© <span id="year"></span> R&amp;B Spotless Cleaning. All rights reserved.</p>
       <p>
         <span class="font-medium text-white/70">Email:</span>
-        <a class="underline decoration-white/20 underline-offset-4 hover:decoration-white/40" href="mailto:service@rbspottlescleaning.co.uk">service@rbspottlescleaning.co.uk</a>
+        <a class="underline decoration-white/20 underline-offset-4 hover:decoration-white/40" href="mailto:rbspotlesscleaning.co.uk">rbspotlesscleaning.co.uk</a>
       </p>
     </div>
   </div>
