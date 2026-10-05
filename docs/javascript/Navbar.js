@@ -6,7 +6,7 @@ navbar.innerHTML = `
     <div class="mt-4 rounded-2xl border border-white/10 bg-slate-950/50 backdrop-blur">
       <div class="flex items-center justify-between gap-4 px-4 py-3 sm:px-6">
         <a href="index.html" class="flex items-center gap-3">
-          <img src="/docs/assets/logo2.png" class="h-12" alt="">
+          <img src="/docs/assets/logo.png" class="md:h-16 h-14" alt="Renova Cleaning Services">
         </a>
 
         <nav class="hidden items-center gap-2 lg:flex">
@@ -43,7 +43,7 @@ navbar.innerHTML = `
       <div class="flex items-center justify-between border-b border-slate-200 p-4">
         <a href="index.html" class="flex items-center gap-3">
           <span class="leading-tight">
-            <span class="block text-sm font-semibold text-slate-900">R&amp;B Spotless Cleaning</span>
+            <span class="block text-sm font-semibold text-slate-900">Renova Cleaning Services</span>
             <span class="block text-xs text-slate-600">St Neots &amp; surrounding areas</span>
           </span>
         </a>

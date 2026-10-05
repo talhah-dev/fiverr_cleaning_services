@@ -10,7 +10,7 @@ footer.innerHTML = `
     <div class="grid gap-10 border-b border-white/10 py-14 lg:grid-cols-12 lg:gap-8">
       <div class="lg:col-span-5" data-aos="fade-up" data-aos-duration="900">
         <div class="flex items-center gap-3">
-                   <img src="/docs/assets/logo2.png" class="h-20" alt="">
+                   <img src="/docs/assets/logo.png" class="h-24" alt="Renova Cleaning Services">
         </div>
 
         <p class="mt-5 max-w-md text-sm leading-relaxed text-white/70">
@@ -93,7 +93,7 @@ footer.innerHTML = `
     </div>
 
     <div class="flex flex-col gap-3 py-8 text-center text-xs text-white/60 sm:flex-row sm:items-center sm:justify-between">
-      <p>© <span id="year"></span> R&amp;B Spotless Cleaning. All rights reserved.</p>
+      <p>© <span id="year"></span> Renova Cleaning Services. All rights reserved.</p>
       <p>
         <span class="font-medium text-white/70">Email:</span>
         <a class="underline decoration-white/20 underline-offset-4 hover:decoration-white/40" href="mailto:rbspotlesscleaning.co.uk">rbspotlesscleaning.co.uk</a>
