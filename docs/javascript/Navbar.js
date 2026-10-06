@@ -117,7 +117,7 @@ navbar.innerHTML = `
           </div>
 
           <div class="mt-4 flex items-center justify-between gap-3 text-xs text-slate-600">
-            <a href="mailto:rbspotlesscleaning.co.uk" class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 transition hover:bg-slate-50">
+            <a href="mailto:info@renovacleaningservices.co.uk" class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-3 py-2 transition hover:bg-slate-50">
               <i class="fa-solid fa-envelope text-sky-700"></i>
               <span class="font-medium">Email</span>
             </a>

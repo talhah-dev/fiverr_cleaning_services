@@ -1,52 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Renova Cleaning Services | Professional Cleaners in St Neots</title>
+    <!-- Primary SEO Meta Tags -->
+    <title>Cleaning Services St Neots | Regular, Deep & Commercial | Renova</title>
+    <meta name="title" content="Cleaning Services St Neots | Regular, Deep & Commercial | Renova" />
     <meta name="description"
-        content="Renova Cleaning Services is a small, family-run cleaning company in St Neots and surrounding areas. Fully insured, reliable and detail-focused. Regular, deep, end of tenancy, Airbnb and commercial cleaning." />
-    <meta name="robots" content="index,follow" />
-    <link rel="canonical" href="https://www.rbspottlescleaning.co.uk/" />
+        content="Explore cleaning services in St Neots by Renova Cleaning Services: Regular domestic cleaning, deep cleans, end of tenancy, Airbnb changeovers, commercial office cleaning & home organisation." />
+    <meta name="keywords"
+        content="cleaning services St Neots, domestic cleaning St Neots, deep cleaning Cambridgeshire, end of tenancy cleaning, Airbnb changeover cleaning, commercial office cleaning, home organisation St Neots" />
+    <meta name="author" content="Renova Cleaning Services" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://www.renovacleaningservices.co.uk/services.html" />
 
+    <!-- Geo Local SEO Tags -->
+    <meta name="geo.region" content="GB-CAM" />
+    <meta name="geo.placename" content="St Neots" />
+    <meta name="geo.position" content="52.2286;-0.2678" />
+    <meta name="ICBM" content="52.2286, -0.2678" />
+
+    <!-- Theme & Mobile Styling -->
     <meta name="theme-color" content="#0b5fb3" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    <meta property="og:type" content="website" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="business.business" />
     <meta property="og:locale" content="en_GB" />
     <meta property="og:site_name" content="Renova Cleaning Services" />
-    <meta property="og:title" content="Renova Cleaning Services | Professional Cleaners in St Neots" />
+    <meta property="og:title" content="Cleaning Services St Neots | Regular, Deep & Commercial | Renova" />
     <meta property="og:description"
-        content="Family-run, fully insured cleaning in St Neots & surrounding areas. High-quality, reliable cleans with attention to detail." />
-    <meta property="og:url" content="https://www.rbspottlescleaning.co.uk/" />
-    <meta property="og:image" content="https://www.rbspottlescleaning.co.uk/assets/img/og-cover.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+        content="Complete range of professional cleaning services in St Neots and surrounding areas. Regular cleans, deep cleans, move-out cleans, holiday lets, and office cleaning." />
+    <meta property="og:url" content="https://www.renovacleaningservices.co.uk/services.html" />
+    <meta property="og:image" content="https://www.renovacleaningservices.co.uk/docs/assets/logo.png" />
+    <meta property="og:image:secure_url" content="https://www.renovacleaningservices.co.uk/docs/assets/logo.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
+    <meta property="og:image:alt" content="Renova Cleaning Services" />
 
+    <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Renova Cleaning Services | Professional Cleaners in St Neots" />
+    <meta name="twitter:title" content="Cleaning Services St Neots | Regular, Deep & Commercial | Renova" />
     <meta name="twitter:description"
-        content="Family-run, fully insured cleaning in St Neots & surrounding areas. Regular, deep, end of tenancy, Airbnb and commercial cleaning." />
-    <meta name="twitter:image" content="https://www.rbspottlescleaning.co.uk/assets/img/og-cover.jpg" />
+        content="Explore professional cleaning services across St Neots: Domestic, Deep, End of Tenancy, Airbnb, Commercial and Organisation." />
+    <meta name="twitter:image" content="https://www.renovacleaningservices.co.uk/docs/assets/logo.png" />
+    <meta name="twitter:image:alt" content="Renova Cleaning Services" />
 
-    <link rel="icon" href="docs/assets/favicon.png" sizes="any" />
-    <link rel="icon" href="docs/assets/favicon.png" type="image/svg+xml" />
-    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
+    <!-- Favicons -->
+    <link rel="icon" href="/docs/assets/favicon.png" sizes="any" />
+    <link rel="icon" href="/docs/assets/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="/docs/assets/favicon.png" />
 
+    <!-- Resource Preconnects for CWV & Performance -->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin />
+    <link rel="preconnect" href="https://unpkg.com" crossorigin />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preload" as="image" href="./docs/assets/img3.png" fetchpriority="high" />
+
+    <!-- CSS Dependencies -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <link rel="preconnect" href="https://unpkg.com" crossorigin />
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
 
+    <!-- Tailwind CSS Script -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./docs/Style.css" />
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.renovacleaningservices.co.uk/services.html#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.renovacleaningservices.co.uk/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "All Services",
+              "item": "https://www.renovacleaningservices.co.uk/services.html"
+            }
+          ]
+        },
+        {
+          "@type": ["CleaningService", "LocalBusiness"],
+          "@id": "https://www.renovacleaningservices.co.uk/#business",
+          "name": "Renova Cleaning Services",
+          "url": "https://www.renovacleaningservices.co.uk/",
+          "logo": "https://www.renovacleaningservices.co.uk/docs/assets/logo.png",
+          "telephone": "+447898952106",
+          "email": "info@renovacleaningservices.co.uk",
+          "priceRange": "££",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "St Neots",
+            "addressRegion": "Cambridgeshire",
+            "addressCountry": "GB"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "52.2286",
+            "longitude": "-0.2678"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.renovacleaningservices.co.uk/services.html#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What’s included in a regular clean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Typical tasks include dusting, vacuuming, mopping, wiping surfaces, and refreshing kitchens and bathrooms. We can also focus on your priority list where needed."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What’s different about a deep clean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Deep cleans focus on areas that usually need more time, such as skirting boards, edges, high-touch points, and extra detail in kitchens and bathrooms."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do you price a clean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Quotes depend on the number of rooms, type of clean, and any extras. Once we know your priorities and location, we can give a clear quote."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How should I prepare for the clean?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "If possible, clearing small items from surfaces helps. If there are any areas to avoid or special instructions, just share them before we start."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Do you offer office cleaning?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. We can set up a regular schedule for offices and workplaces, focusing on shared areas, kitchens, bathrooms, and presentation."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -486,7 +607,7 @@
                                         <i class="fa-solid fa-phone text-emerald-700"></i>
                                         <span class="font-medium">07898 952106</span>
                                     </a>
-                                    <a href="mailto:rbspotlesscleaning.co.uk"
+                                    <a href="mailto:info@renovacleaningservices.co.uk"
                                         class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-2 transition hover:bg-slate-100">
                                         <i class="fa-solid fa-envelope text-sky-700"></i>
                                         <span class="font-medium">Email</span>
@@ -714,7 +835,7 @@
                                         <i class="fa-solid fa-clipboard-check text-emerald-700"></i>
                                         <span class="font-medium">Quote details</span>
                                     </a>
-                                    <a href="mailto:rbspotlesscleaning.co.uk"
+                                    <a href="mailto:info@renovacleaningservices.co.uk"
                                         class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-4 py-2 transition hover:bg-slate-100">
                                         <i class="fa-solid fa-envelope text-sky-700"></i>
                                         <span class="font-medium">Email</span>
@@ -989,7 +1110,7 @@
                             data-aos-duration="850">
                             Email: <a
                                 class="font-semibold text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-500"
-                                href="mailto:rbspotlesscleaning.co.uk">rbspotlesscleaning.co.uk</a>
+                                href="mailto:info@renovacleaningservices.co.uk">info@renovacleaningservices.co.uk</a>
                         </p>
                     </div>
                 </div>
