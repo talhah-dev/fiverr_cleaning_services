@@ -19,7 +19,7 @@ navbar.innerHTML = `
         </nav>
 
         <div class="hidden items-center gap-3 sm:flex">
-          <a href="tel:+447898952106" class="inline-flex items-center gap-2 rounded-xl bg-emerald-400 px-4 md:px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-emerald-300">
+          <a href="tel:+447751146401" class="inline-flex items-center gap-2 rounded-xl bg-emerald-400 px-4 md:px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-emerald-300">
             <i class="fa-solid fa-phone"></i>
             Call
           </a>
@@ -106,7 +106,7 @@ navbar.innerHTML = `
 
         <div class="mt-5 rounded-2xl border border-slate-200 bg-slate-50 p-4">
           <div class="flex flex-wrap gap-3">
-            <a href="tel:+447898952106" class="inline-flex flex-1 items-center justify-center gap-2 rounded-2xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
+            <a href="tel:+447751146401" class="inline-flex flex-1 items-center justify-center gap-2 rounded-2xl bg-slate-900 px-4 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
               <i class="fa-solid fa-phone"></i>
               Call
             </a>

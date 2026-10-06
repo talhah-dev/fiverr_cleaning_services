@@ -18,9 +18,9 @@ footer.innerHTML = `
         </p>
 
         <div class="mt-6 flex flex-wrap items-center gap-3">
-          <a href="tel:+447898952106" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/85 backdrop-blur transition hover:bg-white/10">
+          <a href="tel:+447751146401" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/85 backdrop-blur transition hover:bg-white/10">
             <i class="fa-solid fa-phone text-emerald-300"></i>
-            <span class="font-medium">07898 952106</span>
+            <span class="font-medium">07751 146401</span>
           </a>
           <a href="mailto:info@renovacleaningservices.co.uk" class="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-white/85 backdrop-blur transition hover:bg-white/10">
             <i class="fa-solid fa-envelope text-sky-300"></i>
